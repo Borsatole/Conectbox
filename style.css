@@ -23,9 +23,12 @@ header {
     align-items: center;
 }
 
+body {
+    background-color: #0A0A0A;
+}
+
 /* LOGOTIPO DO HEADER */
 header img {
-    margin-left: 20px;
     padding:10px;
     height: 40px;
 }
@@ -138,6 +141,7 @@ li .bx-check {
     padding: 10px 30px ;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .btn_teste:hover {
@@ -166,6 +170,63 @@ li .bx-check {
     .img > img {
         transition: 1s;
         display: none;
+    }
+
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.imgetexto {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px dashed white;
+    display: flex;
+    align-items: center;
+}
+
+.imgetexto h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #A50000;
+    padding-bottom: 10px;
+}
+
+.imgetexto p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 19px;
+}
+
+.texto4k {
+    width: 50%;
+}
+
+.imgtexto4k {
+    width: 50%;
+}
+.imgtexto4k img {
+    width: 100%;
+}
+
+@media (max-width: 767px) { 
+   
+    .imgetexto {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;}
+
+    .texto4k h1,p {
+        text-align: center;
+    }
+
+    .texto4k p {
+        text-align: center;
+    }
+
+    .texto4k, .imgtexto4k {
+        width: 100%;
     }
 
 }
