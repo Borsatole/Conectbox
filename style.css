@@ -51,7 +51,7 @@ section,header {
 /* TELA1 DE TEXTO E IMAGEM */
 .info {
     display: flex;
-    height: 703px;
+    /* height: 703px; */
 }
 
 /* Break point 767 */
