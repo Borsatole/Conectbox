@@ -150,8 +150,8 @@ a {
 }
 
 .btn_teste:hover {
-    transition: 1.5s;
-    background-color: white;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
     color: #A50000;
 }
 
@@ -180,19 +180,23 @@ a {
     padding-top: 40px;
 }
 
+.videoinstitucional h1 {
+    font-size: 30px;
+    color: #A50000;
+}
+
 .videoinstitucional section {
     display: flex;
     width: 100%;
-    background-color: white;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* Imagem dispositivos responsividade */
 @media (max-width: 767px) { 
-   
+   .videoinstitucional h1 {font-size: 20px;}
     .img > img {
         transition: 1s;
         display: none;
