@@ -118,8 +118,8 @@ li .bx-check {
 /* button responsividade */
 @media (max-width: 825px) {
     
-    .button {
-        transition: 1s;
+.button {
+    transition: 1s;
     width: 100%;
     text-align: center;}
 }
@@ -181,7 +181,7 @@ font-family: 'Roboto', sans-serif; */
 .imgetexto {
     width: 100%;
     margin-bottom: 30px;
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
     display: flex;
     align-items: center;
 }
@@ -210,12 +210,27 @@ font-family: 'Roboto', sans-serif; */
     width: 100%;
 }
 
+
+.video h1{
+    color: #A50000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+
 @media (max-width: 767px) { 
-   
     .imgetexto {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column-reverse;}
+
+    .imgetexto {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;}
 
     .texto4k h1,p {
         text-align: center;
@@ -227,6 +242,13 @@ font-family: 'Roboto', sans-serif; */
 
     .texto4k, .imgtexto4k {
         width: 100%;
+    }
+
+    .reverso {display: flex;
+        flex-direction:column-reverse;}
+
+    body {
+        padding: 0px 3px ;
     }
 
 }
