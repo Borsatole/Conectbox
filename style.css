@@ -285,14 +285,14 @@ font-family: 'Roboto', sans-serif; */
     text-align: center;
     /* height: 110px; */
     font-size: 3em;
-    color: #3A0000;
+    color: #ffffff;
     border: 1px solid red;
     border-radius: 50%;
 }
 
 .card {
     display: flex;
-    background-color: white;
+    background-color: #530101;
     border-radius: 12px 12px 12px 12px;
     font-family: 'Poppins', sans-serif;
     height: 500px;
@@ -305,6 +305,7 @@ font-family: 'Roboto', sans-serif; */
     text-align: center;
 }
 .card ul li {
+    color: #ffffff;
     padding-left: 19px;
     text-align: center;
     line-height: 40px;
@@ -330,6 +331,14 @@ font-family: 'Roboto', sans-serif; */
     transition: 0.5s;
     background-color: rgb(255, 255, 255);
     color: #A50000;
+}
+
+.titleplans h1 {
+    color: #A50000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 20px;
 }
 
 
