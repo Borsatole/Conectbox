@@ -115,6 +115,10 @@ li .bx-check {
     width: 100%;
     text-align: left;
 }
+
+.button a {
+    text-decoration: none;
+}
 /* button responsividade */
 @media (max-width: 825px) {
     
