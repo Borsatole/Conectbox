@@ -163,8 +163,9 @@ a {
 
 .btn_teste:hover {
     transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-    color: var(--cor2);
+    background-color: var(--cor1);
+    color: white;
+    animation: outline 1s infinite;
 }
 
 .img {
@@ -438,17 +439,22 @@ font-family: 'Roboto', sans-serif; */
 
 .tvbox {
     background-image:url(imagens/dispositivos/fundobox.png);
+    transition: 0.5s;
 }
 .smart_tv {
     background-image:url(imagens/dispositivos/fundosmarttv.png);
+    transition: 0.5s;
 }
 .celular {
     background-image:url(imagens/dispositivos/fundocelular.png);
+    transition: 0.5s;
+
+    
 }
 
 .cardimg:hover{
     transition: 1s;
-    filter: blur(0px);
+    
 }
 
 
@@ -456,4 +462,15 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
     gap: 30px;
     margin: 20px 0;
+}
+
+
+.outline {
+    animation: outline 0.8s infinite;
+}
+
+@keyframes outline {
+    50% {
+        outline: 5px solid var(--cor2);
+    }
 }
