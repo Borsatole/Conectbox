@@ -14,6 +14,10 @@
     --cor1:#3A0000;
     --cor2:#A50000;
     --card:#530101;
+
+    /* --cor1:#1801cc;
+    --cor2:#002ba0;
+    --card:#000d37; */
 }
 
 /* CONFIGURAÇÕES DO HEADER */
@@ -271,15 +275,6 @@ font-family: 'Roboto', sans-serif; */
     flex-wrap: wrap;
 }
 
-/* .card {
-    background-color: white;
-    border-radius: 12px 12px 0px 0px;
-    font-family: 'Poppins', sans-serif;
-    height: 600px;
-    width: 280px;
-    
-} */
-
 .card i {
     padding: 5px;
 }
@@ -389,6 +384,11 @@ font-family: 'Roboto', sans-serif; */
         padding: 0px 3px ;
     }
 
+    .dispositivos {
+        display: flex;
+        gap:10px;
+        flex-direction: column;}
+    
 }
 
 .disposivitoscompativeis {
@@ -420,6 +420,11 @@ font-family: 'Roboto', sans-serif; */
     /* filter: blur(5px); */
 }
 
+@media (max-width: 767px) { 
+    .cardimg {width: 90%;}
+}
+
+
 .cardimg h1 {
     /* border: 1px solid red; */
     font-size: 3 rem;
@@ -450,5 +455,5 @@ font-family: 'Roboto', sans-serif; */
 .dispositivos {
     display: flex;
     gap: 30px;
-    margin: 20px 0 20px;
+    margin: 20px 0;
 }
