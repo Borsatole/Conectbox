@@ -421,7 +421,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 @media (max-width: 767px) { 
-    .cardimg {width: 90%;}
+    .cardimg {width: 85%;}
 }
 
 
